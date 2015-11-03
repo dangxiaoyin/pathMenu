@@ -1,0 +1,595 @@
+TZYPathMenu
+v7
+r0
+t396422248.769819
+cCheck dependencies
+cProcessInfoPlistFile /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/Info.plist ZYPathMenu-Info.plist
+cCompileXIB /Users/wxg/Desktop/ZYPathMenu/MainWindow.xib
+cCompileXIB /Users/wxg/Desktop/ZYPathMenu/ZYPathMenuViewController.xib
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton-highlighted.png bg-addbutton-highlighted.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton-highlighted@2x.png bg-addbutton-highlighted@2x.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton.png bg-addbutton.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton@2x.png bg-addbutton@2x.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem-highlighted.png bg-menuitem-highlighted.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem-highlighted@2x.png bg-menuitem-highlighted@2x.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem.png bg-menuitem.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem@2x.png bg-menuitem@2x.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus-highlighted.png icon-plus-highlighted.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus-highlighted@2x.png icon-plus-highlighted@2x.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus.png icon-plus.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus@2x.png icon-plus@2x.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-star.png icon-star.png
+cCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-star@2x.png icon-star@2x.png
+cProcessPCH /var/folders/89/10fqwn653vzclk_7zswm63pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZYPathMenu_Prefix-bevlanxyyxhqnnfpxjbhpandkvdy/ZYPathMenu_Prefix.pch.gch ZYPathMenu_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/main.o /Users/wxg/Desktop/ZYPathMenu/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenuAppDelegate.o /Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenuViewController.o /Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/QuadCurveMenu.o /Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenu.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/QuadCurveMenuItem.o /Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenuItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu normal i386
+cGenerateDSYMFile /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app.dSYM /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu
+cTouch /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app
+
+N/Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenu.h
+c0000000050BD6A920000000000000348
+t1354590866
+s840
+i<UIKit/UIKit.h>
+i"QuadCurveMenuItem.h"
+
+N/Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenu.m
+c0000000051F0B4320000000000003C2F
+t1374729266
+s15407
+i"QuadCurveMenu.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenuItem.h
+c000000004FEABE94000000000000042B
+t1340784276
+s1067
+i<UIKit/UIKit.h>
+
+N/Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenuItem.m
+c0000000051F0518D000000000000109E
+t1374704013
+s4254
+i"QuadCurveMenuItem.h"
+
+N/Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuAppDelegate.h
+c0000000051E6351100000000000001E8
+t1374041361
+s488
+i<UIKit/UIKit.h>
+
+N/Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuAppDelegate.m
+c0000000051E635110000000000000A9B
+t1374041361
+s2715
+i"ZYPathMenuAppDelegate.h"
+i"ZYPathMenuViewController.h"
+
+N/Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuViewController.h
+c0000000051E637F60000000000000120
+t1374042102
+s288
+i<UIKit/UIKit.h>
+i"QuadCurveMenu.h"
+
+N/Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuViewController.m
+c0000000051F050C60000000000000CB6
+t1374703814
+s3254
+i"ZYPathMenuViewController.h"
+
+N/Users/wxg/Desktop/ZYPathMenu/MainWindow.xib
+c0000000051E635110000000000004E4D
+t1374041361
+s20045
+
+N/Users/wxg/Desktop/ZYPathMenu/ZYPathMenuViewController.xib
+c0000000051E635110000000000001A51
+t1374041361
+s6737
+
+N/Users/wxg/Desktop/ZYPathMenu/ZYPathMenu_Prefix.pch
+c0000000051E6351100000000000000BD
+t1374041361
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/wxg/Desktop/ZYPathMenu/bg-addbutton-highlighted.png
+c000000004EDBE9180000000000000BCE
+t1323034904
+s3022
+
+N/Users/wxg/Desktop/ZYPathMenu/bg-addbutton-highlighted@2x.png
+c000000004EDBE9180000000000001748
+t1323034904
+s5960
+
+N/Users/wxg/Desktop/ZYPathMenu/bg-addbutton.png
+c000000004EDBE9180000000000000CAE
+t1323034904
+s3246
+
+N/Users/wxg/Desktop/ZYPathMenu/bg-addbutton@2x.png
+c000000004EDBE91800000000000019AA
+t1323034904
+s6570
+
+N/Users/wxg/Desktop/ZYPathMenu/bg-menuitem-highlighted.png
+c000000004EDBE918000000000000086E
+t1323034904
+s2158
+
+N/Users/wxg/Desktop/ZYPathMenu/bg-menuitem-highlighted@2x.png
+c000000004EDBE9180000000000000E7E
+t1323034904
+s3710
+
+N/Users/wxg/Desktop/ZYPathMenu/bg-menuitem.png
+c000000004EDBE9180000000000000914
+t1323034904
+s2324
+
+N/Users/wxg/Desktop/ZYPathMenu/bg-menuitem@2x.png
+c000000004EDBE9180000000000000EA7
+t1323034904
+s3751
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app
+t1374729448
+s714
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app.dSYM
+t1374729448
+s102
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/Info.plist
+t1374729447
+s603
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/MainWindow.nib
+t1374729447
+s1129
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/PkgInfo
+t1374729447
+s8
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu
+t1374729448
+s43132
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenuViewController.nib
+t1374729447
+s795
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton-highlighted.png
+t1374729447
+s3022
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton-highlighted@2x.png
+t1374729447
+s5960
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton.png
+t1374729447
+s3246
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton@2x.png
+t1374729447
+s6570
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem-highlighted.png
+t1374729447
+s2158
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem-highlighted@2x.png
+t1374729447
+s3710
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem.png
+t1374729447
+s2324
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem@2x.png
+t1374729447
+s3751
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus-highlighted.png
+t1374729447
+s1009
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus-highlighted@2x.png
+t1374729447
+s1104
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus.png
+t1374729447
+s994
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus@2x.png
+t1374729447
+s1061
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/icon-star.png
+t1374729447
+s1184
+
+N/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/icon-star@2x.png
+t1374729447
+s1410
+
+N/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/QuadCurveMenu.o
+t1374729448
+s70408
+
+N/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/QuadCurveMenuItem.o
+t1374729448
+s51352
+
+N/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenu.LinkFileList
+c0000000051F0B4E7000000000000028E
+t1374729447
+s654
+
+N/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenuAppDelegate.o
+t1374729448
+s51040
+
+N/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenuViewController.o
+t1374729448
+s45944
+
+N/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/main.o
+t1374729448
+s6280
+
+N/Users/wxg/Desktop/ZYPathMenu/icon-plus-highlighted.png
+c000000004EDBE91800000000000003F1
+t1323034904
+s1009
+
+N/Users/wxg/Desktop/ZYPathMenu/icon-plus-highlighted@2x.png
+c000000004EDBE9180000000000000450
+t1323034904
+s1104
+
+N/Users/wxg/Desktop/ZYPathMenu/icon-plus.png
+c000000004EDBE91800000000000003E2
+t1323034904
+s994
+
+N/Users/wxg/Desktop/ZYPathMenu/icon-plus@2x.png
+c000000004EDBE9180000000000000425
+t1323034904
+s1061
+
+N/Users/wxg/Desktop/ZYPathMenu/icon-star.png
+c000000004EDBE91800000000000004A0
+t1323034904
+s1184
+
+N/Users/wxg/Desktop/ZYPathMenu/icon-star@2x.png
+c000000004EDBE9180000000000000582
+t1323034904
+s1410
+
+N/Users/wxg/Desktop/ZYPathMenu/main.m
+c0000000051E635110000000000000163
+t1374041361
+s355
+i<UIKit/UIKit.h>
+
+N/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/var/folders/89/10fqwn653vzclk_7zswm63pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZYPathMenu_Prefix-bevlanxyyxhqnnfpxjbhpandkvdy/ZYPathMenu_Prefix.pch.gch
+t1374729448
+s15457488
+
+NZYPathMenu-Info.plist
+c0000000051E63511000000000000038D
+t1374041361
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies396422247#396422247#0(0"0(0#1#0"4598314304#0"0#
+
+CCompileC build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/QuadCurveMenu.o /Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenu.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s396422248.514676
+e396422248.673310
+r1
+xCompileC
+xbuild/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/QuadCurveMenu.o
+x/Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenu.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenu.m396422248#396422248#0(0"0(0#0#53"/Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenu.m4598312592#1893"    cd /Users/wxg/Desktop/ZYPathMenu    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-generated-files.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-own-target-headers.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-all-target-headers.hmap -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-project-headers.hmap -F/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator -I/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/include -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources/i386 -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources -include /var/folders/89/10fqwn653vzclk_7zswm63pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZYPathMenu_Prefix-bevlanxyyxhqnnfpxjbhpandkvdy/ZYPathMenu_Prefix.pch -c /Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenu.m -o /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/QuadCurveMenu.o0#
+
+CCompileC build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/QuadCurveMenuItem.o /Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenuItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s396422248.570023
+e396422248.671720
+r1
+xCompileC
+xbuild/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/QuadCurveMenuItem.o
+x/Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenuItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenuItem.m396422248#396422248#0(0"0(0#0#57"/Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenuItem.m4598312592#1901"    cd /Users/wxg/Desktop/ZYPathMenu    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-generated-files.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-own-target-headers.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-all-target-headers.hmap -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-project-headers.hmap -F/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator -I/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/include -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources/i386 -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources -include /var/folders/89/10fqwn653vzclk_7zswm63pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZYPathMenu_Prefix-bevlanxyyxhqnnfpxjbhpandkvdy/ZYPathMenu_Prefix.pch -c /Users/wxg/Desktop/ZYPathMenu/Classes/QuadCurveMenuItem.m -o /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/QuadCurveMenuItem.o0#
+
+CCompileC build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenuAppDelegate.o /Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s396422248.511835
+e396422248.611627
+r1
+xCompileC
+xbuild/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenuAppDelegate.o
+x/Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuAppDelegate.m396422248#396422248#0(0"0(0#0#61"/Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuAppDelegate.m4598312592#1909"    cd /Users/wxg/Desktop/ZYPathMenu    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-generated-files.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-own-target-headers.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-all-target-headers.hmap -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-project-headers.hmap -F/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator -I/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/include -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources/i386 -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources -include /var/folders/89/10fqwn653vzclk_7zswm63pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZYPathMenu_Prefix-bevlanxyyxhqnnfpxjbhpandkvdy/ZYPathMenu_Prefix.pch -c /Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuAppDelegate.m -o /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenuAppDelegate.o0#
+
+CCompileC build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenuViewController.o /Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s396422248.513053
+e396422248.609472
+r1
+xCompileC
+xbuild/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenuViewController.o
+x/Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuViewController.m396422248#396422248#0(0"0(0#0#64"/Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuViewController.m4598312592#1915"    cd /Users/wxg/Desktop/ZYPathMenu    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-generated-files.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-own-target-headers.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-all-target-headers.hmap -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-project-headers.hmap -F/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator -I/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/include -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources/i386 -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources -include /var/folders/89/10fqwn653vzclk_7zswm63pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZYPathMenu_Prefix-bevlanxyyxhqnnfpxjbhpandkvdy/ZYPathMenu_Prefix.pch -c /Users/wxg/Desktop/ZYPathMenu/Classes/ZYPathMenuViewController.m -o /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenuViewController.o0#
+
+CCompileC build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/main.o /Users/wxg/Desktop/ZYPathMenu/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s396422248.510159
+e396422248.569223
+r1
+xCompileC
+xbuild/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/main.o
+x/Users/wxg/Desktop/ZYPathMenu/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/wxg/Desktop/ZYPathMenu/main.m396422248#396422248#0(0"0(0#0#36"/Users/wxg/Desktop/ZYPathMenu/main.m4598312592#1867"    cd /Users/wxg/Desktop/ZYPathMenu    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-generated-files.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-own-target-headers.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-all-target-headers.hmap -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-project-headers.hmap -F/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator -I/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/include -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources/i386 -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources -include /var/folders/89/10fqwn653vzclk_7zswm63pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZYPathMenu_Prefix-bevlanxyyxhqnnfpxjbhpandkvdy/ZYPathMenu_Prefix.pch -c /Users/wxg/Desktop/ZYPathMenu/main.m -o /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/wxg/Desktop/ZYPathMenu/MainWindow.xib
+s396422247.524255
+e396422247.975984
+r1
+xCompileXIB
+x/Users/wxg/Desktop/ZYPathMenu/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib396422247#396422247#0(0"0(0#0#44"/Users/wxg/Desktop/ZYPathMenu/MainWindow.xib4598312592#542"    cd /Users/wxg/Desktop/ZYPathMenu    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/MainWindow.nib /Users/wxg/Desktop/ZYPathMenu/MainWindow.xib --sdk /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/wxg/Desktop/ZYPathMenu/ZYPathMenuViewController.xib
+s396422247.525033
+e396422247.969180
+r1
+xCompileXIB
+x/Users/wxg/Desktop/ZYPathMenu/ZYPathMenuViewController.xib
+lSLF07#2@39"CompileXIB ZYPathMenuViewController.xib396422247#396422247#0(0"0(0#0#58"/Users/wxg/Desktop/ZYPathMenu/ZYPathMenuViewController.xib4598312592#570"    cd /Users/wxg/Desktop/ZYPathMenu    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenuViewController.nib /Users/wxg/Desktop/ZYPathMenu/ZYPathMenuViewController.xib --sdk /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton-highlighted.png bg-addbutton-highlighted.png
+s396422247.525797
+e396422247.571199
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton-highlighted.png
+xbg-addbutton-highlighted.png
+lSLF07#2@33"Copy bg-addbutton-highlighted.png396422247#396422247#0(0"0(0#0#58"/Users/wxg/Desktop/ZYPathMenu/bg-addbutton-highlighted.png4598312592#459"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/bg-addbutton-highlighted.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton-highlighted@2x.png bg-addbutton-highlighted@2x.png
+s396422247.526462
+e396422247.546456
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton-highlighted@2x.png
+xbg-addbutton-highlighted@2x.png
+lSLF07#2@36"Copy bg-addbutton-highlighted@2x.png396422247#396422247#0(0"0(0#0#61"/Users/wxg/Desktop/ZYPathMenu/bg-addbutton-highlighted@2x.png4598312592#462"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/bg-addbutton-highlighted@2x.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton.png bg-addbutton.png
+s396422247.527153
+e396422247.546592
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton.png
+xbg-addbutton.png
+lSLF07#2@21"Copy bg-addbutton.png396422247#396422247#0(0"0(0#0#46"/Users/wxg/Desktop/ZYPathMenu/bg-addbutton.png4598312592#447"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/bg-addbutton.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton@2x.png bg-addbutton@2x.png
+s396422247.527808
+e396422247.557035
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/bg-addbutton@2x.png
+xbg-addbutton@2x.png
+lSLF07#2@24"Copy bg-addbutton@2x.png396422247#396422247#0(0"0(0#0#49"/Users/wxg/Desktop/ZYPathMenu/bg-addbutton@2x.png4598312592#450"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/bg-addbutton@2x.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem-highlighted.png bg-menuitem-highlighted.png
+s396422247.528653
+e396422247.557186
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem-highlighted.png
+xbg-menuitem-highlighted.png
+lSLF07#2@32"Copy bg-menuitem-highlighted.png396422247#396422247#0(0"0(0#0#57"/Users/wxg/Desktop/ZYPathMenu/bg-menuitem-highlighted.png4598312592#458"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/bg-menuitem-highlighted.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem-highlighted@2x.png bg-menuitem-highlighted@2x.png
+s396422247.529346
+e396422247.548193
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem-highlighted@2x.png
+xbg-menuitem-highlighted@2x.png
+lSLF07#2@35"Copy bg-menuitem-highlighted@2x.png396422247#396422247#0(0"0(0#0#60"/Users/wxg/Desktop/ZYPathMenu/bg-menuitem-highlighted@2x.png4598312592#461"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/bg-menuitem-highlighted@2x.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem.png bg-menuitem.png
+s396422247.530016
+e396422247.548320
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem.png
+xbg-menuitem.png
+lSLF07#2@20"Copy bg-menuitem.png396422247#396422247#0(0"0(0#0#45"/Users/wxg/Desktop/ZYPathMenu/bg-menuitem.png4598312592#446"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/bg-menuitem.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem@2x.png bg-menuitem@2x.png
+s396422247.530792
+e396422247.557316
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/bg-menuitem@2x.png
+xbg-menuitem@2x.png
+lSLF07#2@23"Copy bg-menuitem@2x.png396422247#396422247#0(0"0(0#0#48"/Users/wxg/Desktop/ZYPathMenu/bg-menuitem@2x.png4598312592#449"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/bg-menuitem@2x.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus-highlighted.png icon-plus-highlighted.png
+s396422247.546670
+e396422247.562423
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/icon-plus-highlighted.png
+xicon-plus-highlighted.png
+lSLF07#2@30"Copy icon-plus-highlighted.png396422247#396422247#0(0"0(0#0#55"/Users/wxg/Desktop/ZYPathMenu/icon-plus-highlighted.png4598312592#456"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/icon-plus-highlighted.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus-highlighted@2x.png icon-plus-highlighted@2x.png
+s396422247.547407
+e396422247.571355
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/icon-plus-highlighted@2x.png
+xicon-plus-highlighted@2x.png
+lSLF07#2@33"Copy icon-plus-highlighted@2x.png396422247#396422247#0(0"0(0#0#58"/Users/wxg/Desktop/ZYPathMenu/icon-plus-highlighted@2x.png4598312592#459"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/icon-plus-highlighted@2x.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus.png icon-plus.png
+s396422247.548392
+e396422247.562567
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/icon-plus.png
+xicon-plus.png
+lSLF07#2@18"Copy icon-plus.png396422247#396422247#0(0"0(0#0#43"/Users/wxg/Desktop/ZYPathMenu/icon-plus.png4598312592#444"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/icon-plus.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-plus@2x.png icon-plus@2x.png
+s396422247.549040
+e396422247.571644
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/icon-plus@2x.png
+xicon-plus@2x.png
+lSLF07#2@21"Copy icon-plus@2x.png396422247#396422247#0(0"0(0#0#46"/Users/wxg/Desktop/ZYPathMenu/icon-plus@2x.png4598312592#447"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/icon-plus@2x.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-star.png icon-star.png
+s396422247.557406
+e396422247.571500
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/icon-star.png
+xicon-star.png
+lSLF07#2@18"Copy icon-star.png396422247#396422247#0(0"0(0#0#43"/Users/wxg/Desktop/ZYPathMenu/icon-star.png4598312592#444"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/icon-star.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CCpResource build/Debug-iphonesimulator/ZYPathMenu.app/icon-star@2x.png icon-star@2x.png
+s396422247.561507
+e396422247.587558
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ZYPathMenu.app/icon-star@2x.png
+xicon-star@2x.png
+lSLF07#2@21"Copy icon-star@2x.png396422247#396422247#0(0"0(0#0#46"/Users/wxg/Desktop/ZYPathMenu/icon-star@2x.png4598312592#447"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wxg/Desktop/ZYPathMenu/icon-star@2x.png /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
+CGenerateDSYMFile /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app.dSYM /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu
+s396422248.749696
+e396422248.767086
+r1
+xGenerateDSYMFile
+x/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app.dSYM
+x/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/ZYPathMenu.app.dSYM build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu396422248#396422248#0(0"0(0#0#83"/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu4598312592#362"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/usr/bin/dsymutil /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu -o /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app.dSYM0#
+
+CLd /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu normal i386
+s396422248.673379
+e396422248.749605
+r1
+xLd
+x/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu
+xnormal
+xi386
+lSLF07#2@88"Link /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu396422248#396422248#0(0"0(0#0#0"4598312592#888"    cd /Users/wxg/Desktop/ZYPathMenu    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator -F/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator -filelist /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/Objects-normal/i386/ZYPathMenu.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/ZYPathMenu0#
+
+CProcessInfoPlistFile /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/Info.plist ZYPathMenu-Info.plist
+s396422247.521163
+e396422247.524155
+r1
+xProcessInfoPlistFile
+x/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/Info.plist
+xZYPathMenu-Info.plist
+lSLF07#2@29"Process ZYPathMenu-Info.plist396422247#396422247#0(0"0(0#0#51"/Users/wxg/Desktop/ZYPathMenu/ZYPathMenu-Info.plist4598312704#459"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ZYPathMenu-Info.plist -genpkginfo /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app/Info.plist0#
+
+CProcessPCH /var/folders/89/10fqwn653vzclk_7zswm63pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZYPathMenu_Prefix-bevlanxyyxhqnnfpxjbhpandkvdy/ZYPathMenu_Prefix.pch.gch ZYPathMenu_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s396422247.976110
+e396422248.509997
+r1
+xProcessPCH
+x/var/folders/89/10fqwn653vzclk_7zswm63pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZYPathMenu_Prefix-bevlanxyyxhqnnfpxjbhpandkvdy/ZYPathMenu_Prefix.pch.gch
+xZYPathMenu_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ZYPathMenu_Prefix.pch396422247#396422248#0(0"0(0#0#51"/Users/wxg/Desktop/ZYPathMenu/ZYPathMenu_Prefix.pch4598312592#1765"    cd /Users/wxg/Desktop/ZYPathMenu    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-generated-files.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-own-target-headers.hmap -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-all-target-headers.hmap -iquote /Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/ZYPathMenu-project-headers.hmap -F/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator -I/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/include -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources/i386 -I/Users/wxg/Desktop/ZYPathMenu/build/ZYPathMenu.build/Debug-iphonesimulator/ZYPathMenu.build/DerivedSources -c /Users/wxg/Desktop/ZYPathMenu/ZYPathMenu_Prefix.pch -o /var/folders/89/10fqwn653vzclk_7zswm63pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZYPathMenu_Prefix-bevlanxyyxhqnnfpxjbhpandkvdy/ZYPathMenu_Prefix.pch.gch0#
+
+CTouch /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app
+s396422248.767178
+e396422248.769715
+r1
+xTouch
+x/Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app
+lSLF07#2@78"Touch /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app396422248#396422248#0(0"0(0#0#0"4598312592#261"    cd /Users/wxg/Desktop/ZYPathMenu    setenv PATH "/Xcode4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/wxg/Desktop/ZYPathMenu/build/Debug-iphonesimulator/ZYPathMenu.app0#
+
